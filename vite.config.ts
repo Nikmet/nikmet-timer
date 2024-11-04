@@ -12,8 +12,8 @@ export default defineConfig({
             manifest: {
                 name: "Таймер",
                 short_name: "Таймер",
-                theme_color: "#003147",
-                start_url: "/",
+                theme_color: "#1d0b3d",
+                start_url: "/nikmet-timer",
                 display: "minimal-ui",
                 icons: [
                     {
@@ -42,5 +42,6 @@ export default defineConfig({
                 orientation: "portrait"
             }
         })
-    ]
+    ],
+    base: "/nikmet-timer"
 });
